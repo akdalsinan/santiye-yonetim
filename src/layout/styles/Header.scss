@@ -1,0 +1,40 @@
+.head {
+  padding: 0 10px;
+  height: 64px;
+  align-content: center;
+  background-color: transparent;
+  // color: '#fff';
+  &-title {
+    margin: 0px;
+  }
+  &-flex {
+    height: 40px;
+    background-color: #fff;
+    padding: 0px 10px 0px 5px;
+    margin: 5px 5px;
+    border-radius: 30px;
+    &-dropdown {
+      &-button {
+        background-color: #5072a7;
+        border: #5072a7;
+      }
+    }
+    &-button {
+      color: #5072a7;
+    }
+    &-search {
+      border-radius: 20px;
+      max-width: 140px;
+      &.icon {
+        font-size: 16px;
+        margin-right: 5px;
+        color: #5072a7;
+      }
+    }
+  }
+}
+
+// Header Profile Dropdown Menu
+.ant-dropdown {
+  margin-top: 15px !important;
+}

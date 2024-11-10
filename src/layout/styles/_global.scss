@@ -1,0 +1,29 @@
+@use './mixins' as *;
+@use './variables' as *;
+@use './normalize' as *;
+
+html,
+body {
+  @include general-styles;
+  @include font-smooth;
+}
+
+#root {
+  @include general-styles;
+  @include flex-container;
+}
+
+.ant-layout {
+  @include layout-styles;
+}
+
+.ant-layout-content {
+  flex: 1;
+  overflow: auto;
+  padding: 15px;
+}
+
+/* Custom Scrollbar Tasarımı */
+::-webkit-scrollbar {
+  @include scrollbar-styles;
+}

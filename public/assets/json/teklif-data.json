@@ -1,0 +1,862 @@
+{
+  "url": "",
+
+  "errorCode": "",
+
+  "isSuccess": true,
+
+  "resultMessage": "İşlem Başarılı",
+
+  "resultSet": [
+    {
+      "title": "Allianz Sigorta",
+
+      "logourl": "https://panel.teklif.io/apikabnod/logo/neova.png",
+
+      "price": [
+        {
+          "success": true,
+
+          "message": "",
+
+          "name": "ECO",
+
+          "packageName": "Trafik Sigortasi",
+
+          "amount": "6645.45",
+
+          "proposalNo": "0607750992",
+
+          "newpolicyStartDate": "08-06-2024",
+
+          "newpolicyEndDate": "08-06-2025",
+
+          "installmentsList": [
+            {
+              "type": "Sanal POS",
+
+              "value": "SanalPos Peşin (1 Taksit)",
+
+              "code": "2000389"
+            }
+          ]
+        },
+
+        {
+          "success": true,
+
+          "message": "",
+
+          "name": "EX",
+
+          "packageName": "Ekstra Trafik Sigortasi",
+
+          "amount": "10689.00",
+
+          "proposalNo": "0607749411",
+
+          "newpolicyStartDate": "08-06-2024",
+
+          "newpolicyEndDate": "08-06-2025",
+
+          "installmentsList": [
+            {
+              "type": "Sanal POS",
+
+              "value": "SanalPos Peşin (1 Taksit)",
+
+              "code": "2000389"
+            },
+
+            {
+              "type": "Sanal POS",
+
+              "value": "Sanal POS Blokeli 2 Taksit",
+
+              "code": "2000390"
+            }
+          ]
+        },
+        {
+          "success": true,
+
+          "message": "",
+
+          "name": "EXPLUS",
+
+          "packageName": "Ekstra Plus Trafik Sigortasi",
+
+          "amount": "15689.00",
+
+          "proposalNo": "0607749411",
+
+          "newpolicyStartDate": "08-06-2024",
+
+          "newpolicyEndDate": "08-06-2025",
+
+          "installmentsList": [
+            {
+              "type": "Sanal POS",
+
+              "value": "SanalPos Peşin (3 Taksit)",
+
+              "code": "2000389"
+            },
+
+            {
+              "type": "Sanal POS",
+
+              "value": "Sanal POS Blokeli 6 Taksit",
+
+              "code": "2000390"
+            }
+          ]
+        }
+      ],
+
+      "user": {
+        "fullName": "KAAN BAYIRBAĞ",
+
+        "userNo": "4100406",
+
+        "identityNumber": "32963255050",
+
+        "birthDate": "25-01-1977",
+
+        "phoneNumber": "",
+
+        "eMail": "",
+
+        "occupation": "Finans (Banka, Sigorta, Vs.) - Bankaci",
+
+        "adress": "ERT*** MAH*** SAD*** SK. NO: 3 İÇ KAP*** NO: 9 SİN*** / ANK***"
+      },
+
+      "car": {
+        "plateNo": "6 HC7644",
+
+        "brand": "OPEL",
+
+        "model": "ASTRA SEDAN 1.6 DIZEL 136 SPORT",
+
+        "modelYear": 2014,
+
+        "carType": "OTOMOBİL;AA SEDAN",
+
+        "usageType": "HUSUSİ OTOMOBİL",
+
+        "usageMode": "OTOMOBİL (SÜRÜCÜ DAHİL 9 KOLTUK)",
+
+        "chassisNo": "W0LPD5E35FG005938",
+
+        "engineNo": "A1142415GHMX0342LVL"
+      },
+
+      "reference": {
+        "oldCompanyName": "ZURICH SİGORTA ANONİM ŞİRKETİ",
+
+        "oldAgencyCode": "018",
+
+        "renewalNo": "",
+
+        "oldPolicyNo": "27047326",
+
+        "surprise": "",
+
+        "delaySurprise": "",
+
+        "policyStartDate": "08-06-2023",
+
+        "policyEndDate": "08-06-2024"
+      },
+
+      "name": "allianz"
+    },
+    {
+      "title": "Neova Sigorta",
+
+      "logourl": "https://panel.teklif.io/apikabnod/logo/neova.png",
+
+      "price": [
+        {
+          "success": true,
+
+          "message": "",
+
+          "name": "ECO",
+
+          "packageName": "Trafik Sigortasi",
+
+          "amount": "4645.45",
+
+          "proposalNo": "0607750992",
+
+          "newpolicyStartDate": "08-06-2024",
+
+          "newpolicyEndDate": "08-06-2025",
+
+          "installmentsList": [
+            {
+              "type": "Sanal POS",
+
+              "value": "SanalPos Peşin (1 Taksit)",
+
+              "code": "2000389"
+            }
+          ]
+        },
+
+        {
+          "success": true,
+
+          "message": "",
+
+          "name": "EX",
+
+          "packageName": "Ekstra Trafik Sigortasi",
+
+          "amount": "9689.00",
+
+          "proposalNo": "0607749411",
+
+          "newpolicyStartDate": "08-06-2024",
+
+          "newpolicyEndDate": "08-06-2025",
+
+          "installmentsList": [
+            {
+              "type": "Sanal POS",
+
+              "value": "SanalPos Peşin (1 Taksit)",
+
+              "code": "2000389"
+            },
+
+            {
+              "type": "Sanal POS",
+
+              "value": "Sanal POS Blokeli 2 Taksit",
+
+              "code": "2000390"
+            }
+          ]
+        }
+      ],
+
+      "user": {
+        "fullName": "KAAN BAYIRBAĞ",
+
+        "userNo": "4100406",
+
+        "identityNumber": "32963255050",
+
+        "birthDate": "25-01-1977",
+
+        "phoneNumber": "",
+
+        "eMail": "",
+
+        "occupation": "Finans (Banka, Sigorta, Vs.) - Bankaci",
+
+        "adress": "ERT*** MAH*** SAD*** SK. NO: 3 İÇ KAP*** NO: 9 SİN*** / ANK***"
+      },
+
+      "car": {
+        "plateNo": "6 HC7644",
+
+        "brand": "OPEL",
+
+        "model": "ASTRA SEDAN 1.6 DIZEL 136 SPORT",
+
+        "modelYear": 2014,
+
+        "carType": "OTOMOBİL;AA SEDAN",
+
+        "usageType": "HUSUSİ OTOMOBİL",
+
+        "usageMode": "OTOMOBİL (SÜRÜCÜ DAHİL 9 KOLTUK)",
+
+        "chassisNo": "W0LPD5E35FG005938",
+
+        "engineNo": "A1142415GHMX0342LVL"
+      },
+
+      "reference": {
+        "oldCompanyName": "ZURICH SİGORTA ANONİM ŞİRKETİ",
+
+        "oldAgencyCode": "018",
+
+        "renewalNo": "",
+
+        "oldPolicyNo": "27047326",
+
+        "surprise": "",
+
+        "delaySurprise": "",
+
+        "policyStartDate": "08-06-2023",
+
+        "policyEndDate": "08-06-2024"
+      },
+
+      "name": "neova"
+    },
+    {
+      "title": "Sompo Sigorta",
+
+      "logourl": "https://panel.teklif.io/apikabnod/logo/neova.png",
+
+      "price": [
+        {
+          "success": true,
+
+          "message": "",
+
+          "name": "ECO",
+
+          "packageName": "Trafik Sigortasi",
+
+          "amount": "7618.61",
+
+          "proposalNo": "0607750992",
+
+          "newpolicyStartDate": "08-06-2024",
+
+          "newpolicyEndDate": "08-06-2025",
+
+          "installmentsList": [
+            {
+              "type": "Sanal POS",
+
+              "value": "SanalPos Peşin (1 Taksit)",
+
+              "code": "2000389"
+            }
+          ]
+        },
+
+        {
+          "success": true,
+
+          "message": "",
+
+          "name": "EX",
+
+          "packageName": "Ekstra Trafik Sigortasi",
+
+          "amount": "14611.21",
+
+          "proposalNo": "0607749411",
+
+          "newpolicyStartDate": "08-06-2024",
+
+          "newpolicyEndDate": "08-06-2025",
+
+          "installmentsList": [
+            {
+              "type": "Sanal POS",
+
+              "value": "SanalPos Peşin (1 Taksit)",
+
+              "code": "2000389"
+            },
+
+            {
+              "type": "Sanal POS",
+
+              "value": "Sanal POS Blokeli 2 Taksit",
+
+              "code": "2000390"
+            }
+          ]
+        }
+      ],
+
+      "user": {
+        "fullName": "KAAN BAYIRBAĞ",
+
+        "userNo": "4100406",
+
+        "identityNumber": "32963255050",
+
+        "birthDate": "25-01-1977",
+
+        "phoneNumber": "",
+
+        "eMail": "",
+
+        "occupation": "Finans (Banka, Sigorta, Vs.) - Bankaci",
+
+        "adress": "ERT*** MAH*** SAD*** SK. NO: 3 İÇ KAP*** NO: 9 SİN*** / ANK***"
+      },
+
+      "car": {
+        "plateNo": "6 HC7644",
+
+        "brand": "OPEL",
+
+        "model": "ASTRA SEDAN 1.6 DIZEL 136 SPORT",
+
+        "modelYear": 2014,
+
+        "carType": "OTOMOBİL;AA SEDAN",
+
+        "usageType": "HUSUSİ OTOMOBİL",
+
+        "usageMode": "OTOMOBİL (SÜRÜCÜ DAHİL 9 KOLTUK)",
+
+        "chassisNo": "W0LPD5E35FG005938",
+
+        "engineNo": "A1142415GHMX0342LVL"
+      },
+
+      "reference": {
+        "oldCompanyName": "ZURICH SİGORTA ANONİM ŞİRKETİ",
+
+        "oldAgencyCode": "018",
+
+        "renewalNo": "",
+
+        "oldPolicyNo": "27047326",
+
+        "surprise": "",
+
+        "delaySurprise": "",
+
+        "policyStartDate": "08-06-2023",
+
+        "policyEndDate": "08-06-2024"
+      },
+
+      "name": "sompo"
+    },
+    {
+      "title": "Allianz Sigorta",
+
+      "logourl": "https://panel.teklif.io/apikabnod/logo/neova.png",
+
+      "price": [
+        {
+          "success": true,
+
+          "message": "",
+
+          "name": "ECO",
+
+          "packageName": "Trafik Sigortasi",
+
+          "amount": "10134.93",
+
+          "proposalNo": "0607750992",
+
+          "newpolicyStartDate": "08-06-2024",
+
+          "newpolicyEndDate": "08-06-2025",
+
+          "installmentsList": [
+            {
+              "type": "Sanal POS",
+
+              "value": "SanalPos Peşin (1 Taksit)",
+
+              "code": "2000389"
+            }
+          ]
+        },
+
+        {
+          "success": true,
+
+          "message": "",
+
+          "name": "EX",
+
+          "packageName": "Ekstra Trafik Sigortasi",
+
+          "amount": "17689.00",
+
+          "proposalNo": "0607749411",
+
+          "newpolicyStartDate": "08-06-2024",
+
+          "newpolicyEndDate": "08-06-2025",
+
+          "installmentsList": [
+            {
+              "type": "Sanal POS",
+
+              "value": "SanalPos Peşin (1 Taksit)",
+
+              "code": "2000389"
+            },
+
+            {
+              "type": "Sanal POS",
+
+              "value": "Sanal POS Blokeli 2 Taksit",
+
+              "code": "2000390"
+            }
+          ]
+        },
+        {
+          "success": true,
+
+          "message": "",
+
+          "name": "EXPLUS",
+
+          "packageName": "Ekstra Plus Trafik Sigortasi",
+
+          "amount": "19689.00",
+
+          "proposalNo": "0607749411",
+
+          "newpolicyStartDate": "08-06-2024",
+
+          "newpolicyEndDate": "08-06-2025",
+
+          "installmentsList": [
+            {
+              "type": "Sanal POS",
+
+              "value": "SanalPos Peşin (3 Taksit)",
+
+              "code": "2000389"
+            },
+
+            {
+              "type": "Sanal POS",
+
+              "value": "Sanal POS Blokeli 6 Taksit",
+
+              "code": "2000390"
+            }
+          ]
+        }
+      ],
+
+      "user": {
+        "fullName": "KAAN BAYIRBAĞ",
+
+        "userNo": "4100406",
+
+        "identityNumber": "32963255050",
+
+        "birthDate": "25-01-1977",
+
+        "phoneNumber": "",
+
+        "eMail": "",
+
+        "occupation": "Finans (Banka, Sigorta, Vs.) - Bankaci",
+
+        "adress": "ERT*** MAH*** SAD*** SK. NO: 3 İÇ KAP*** NO: 9 SİN*** / ANK***"
+      },
+
+      "car": {
+        "plateNo": "6 HC7644",
+
+        "brand": "OPEL",
+
+        "model": "ASTRA SEDAN 1.6 DIZEL 136 SPORT",
+
+        "modelYear": 2014,
+
+        "carType": "OTOMOBİL;AA SEDAN",
+
+        "usageType": "HUSUSİ OTOMOBİL",
+
+        "usageMode": "OTOMOBİL (SÜRÜCÜ DAHİL 9 KOLTUK)",
+
+        "chassisNo": "W0LPD5E35FG005938",
+
+        "engineNo": "A1142415GHMX0342LVL"
+      },
+
+      "reference": {
+        "oldCompanyName": "ZURICH SİGORTA ANONİM ŞİRKETİ",
+
+        "oldAgencyCode": "018",
+
+        "renewalNo": "",
+
+        "oldPolicyNo": "27047326",
+
+        "surprise": "",
+
+        "delaySurprise": "",
+
+        "policyStartDate": "08-06-2023",
+
+        "policyEndDate": "08-06-2024"
+      },
+
+      "name": "mapfre"
+    },
+    {
+      "title": "Sompo Sigorta",
+
+      "logourl": "https://panel.teklif.io/apikabnod/logo/neova.png",
+
+      "price": [
+        {
+          "success": true,
+
+          "message": "",
+
+          "name": "ECO",
+
+          "packageName": "Trafik Sigortasi",
+
+          "amount": "9522",
+
+          "proposalNo": "0607750992",
+
+          "newpolicyStartDate": "08-06-2024",
+
+          "newpolicyEndDate": "08-06-2025",
+
+          "installmentsList": [
+            {
+              "type": "Sanal POS",
+
+              "value": "SanalPos Peşin (1 Taksit)",
+
+              "code": "2000389"
+            }
+          ]
+        },
+
+        {
+          "success": true,
+
+          "message": "",
+
+          "name": "EX",
+
+          "packageName": "Ekstra Trafik Sigortasi",
+
+          "amount": "13850",
+
+          "proposalNo": "0607749411",
+
+          "newpolicyStartDate": "08-06-2024",
+
+          "newpolicyEndDate": "08-06-2025",
+
+          "installmentsList": [
+            {
+              "type": "Sanal POS",
+
+              "value": "SanalPos Peşin (1 Taksit)",
+
+              "code": "2000389"
+            },
+
+            {
+              "type": "Sanal POS",
+
+              "value": "Sanal POS Blokeli 2 Taksit",
+
+              "code": "2000390"
+            }
+          ]
+        }
+      ],
+
+      "user": {
+        "fullName": "KAAN BAYIRBAĞ",
+
+        "userNo": "4100406",
+
+        "identityNumber": "32963255050",
+
+        "birthDate": "25-01-1977",
+
+        "phoneNumber": "",
+
+        "eMail": "",
+
+        "occupation": "Finans (Banka, Sigorta, Vs.) - Bankaci",
+
+        "adress": "ERT*** MAH*** SAD*** SK. NO: 3 İÇ KAP*** NO: 9 SİN*** / ANK***"
+      },
+
+      "car": {
+        "plateNo": "6 HC7644",
+
+        "brand": "OPEL",
+
+        "model": "ASTRA SEDAN 1.6 DIZEL 136 SPORT",
+
+        "modelYear": 2014,
+
+        "carType": "OTOMOBİL;AA SEDAN",
+
+        "usageType": "HUSUSİ OTOMOBİL",
+
+        "usageMode": "OTOMOBİL (SÜRÜCÜ DAHİL 9 KOLTUK)",
+
+        "chassisNo": "W0LPD5E35FG005938",
+
+        "engineNo": "A1142415GHMX0342LVL"
+      },
+
+      "reference": {
+        "oldCompanyName": "ZURICH SİGORTA ANONİM ŞİRKETİ",
+
+        "oldAgencyCode": "018",
+
+        "renewalNo": "",
+
+        "oldPolicyNo": "27047326",
+
+        "surprise": "",
+
+        "delaySurprise": "",
+
+        "policyStartDate": "08-06-2023",
+
+        "policyEndDate": "08-06-2024"
+      },
+
+      "name": "koru"
+    },
+    {
+      "title": "Sompo Sigorta",
+
+      "logourl": "https://panel.teklif.io/apikabnod/logo/neova.png",
+
+      "price": [
+        {
+          "success": true,
+
+          "message": "",
+
+          "name": "ECO",
+
+          "packageName": "Trafik Sigortasi",
+
+          "amount": "11200.07",
+
+          "proposalNo": "0607750992",
+
+          "newpolicyStartDate": "08-06-2024",
+
+          "newpolicyEndDate": "08-06-2025",
+
+          "installmentsList": [
+            {
+              "type": "Sanal POS",
+
+              "value": "SanalPos Peşin (1 Taksit)",
+
+              "code": "2000389"
+            }
+          ]
+        },
+
+        {
+          "success": true,
+
+          "message": "",
+
+          "name": "EX",
+
+          "packageName": "Ekstra Trafik Sigortasi",
+
+          "amount": "18500.58",
+
+          "proposalNo": "0607749411",
+
+          "newpolicyStartDate": "08-06-2024",
+
+          "newpolicyEndDate": "08-06-2025",
+
+          "installmentsList": [
+            {
+              "type": "Sanal POS",
+
+              "value": "SanalPos Peşin (1 Taksit)",
+
+              "code": "2000389"
+            },
+
+            {
+              "type": "Sanal POS",
+
+              "value": "Sanal POS Blokeli 2 Taksit",
+
+              "code": "2000390"
+            }
+          ]
+        }
+      ],
+
+      "user": {
+        "fullName": "KAAN BAYIRBAĞ",
+
+        "userNo": "4100406",
+
+        "identityNumber": "32963255050",
+
+        "birthDate": "25-01-1977",
+
+        "phoneNumber": "",
+
+        "eMail": "",
+
+        "occupation": "Finans (Banka, Sigorta, Vs.) - Bankaci",
+
+        "adress": "ERT*** MAH*** SAD*** SK. NO: 3 İÇ KAP*** NO: 9 SİN*** / ANK***"
+      },
+
+      "car": {
+        "plateNo": "6 HC7644",
+
+        "brand": "OPEL",
+
+        "model": "ASTRA SEDAN 1.6 DIZEL 136 SPORT",
+
+        "modelYear": 2014,
+
+        "carType": "OTOMOBİL;AA SEDAN",
+
+        "usageType": "HUSUSİ OTOMOBİL",
+
+        "usageMode": "OTOMOBİL (SÜRÜCÜ DAHİL 9 KOLTUK)",
+
+        "chassisNo": "W0LPD5E35FG005938",
+
+        "engineNo": "A1142415GHMX0342LVL"
+      },
+
+      "reference": {
+        "oldCompanyName": "ZURICH SİGORTA ANONİM ŞİRKETİ",
+
+        "oldAgencyCode": "018",
+
+        "renewalNo": "",
+
+        "oldPolicyNo": "27047326",
+
+        "surprise": "",
+
+        "delaySurprise": "",
+
+        "policyStartDate": "08-06-2023",
+
+        "policyEndDate": "08-06-2024"
+      },
+
+      "name": "hepiyi"
+    }
+  ],
+
+  "title": "Hepiyi Sigorta",
+
+  "name": "neova",
+
+  "logourl": "https://panel.teklif.io/apikabnod/logo/neova.png"
+}

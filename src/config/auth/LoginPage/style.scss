@@ -1,0 +1,184 @@
+// Background Animation Style
+@keyframes move {
+  100% {
+    transform: translate3d(0, 0, 1px) rotate(360deg);
+  }
+}
+
+.bg {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: #f1f1f1;
+  overflow: hidden;
+}
+
+.bg span {
+  width: 50vmin;
+  height: 50vmin;
+  border-radius: 50vmin;
+  backface-visibility: hidden;
+  position: absolute;
+  animation: move;
+  animation-duration: 11;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.bg span:nth-child(0) {
+  color: 5cc4de;
+  top: 33%;
+  left: 98%;
+  animation-duration: 279s;
+  animation-delay: -327s;
+  transform-origin: -10vw -10vh;
+  box-shadow: -100vmin 0 13.383580312455447vmin currentColor;
+}
+.bg span:nth-child(1) {
+  color: #5cc4de;
+  top: 49%;
+  left: 80%;
+  animation-duration: 271s;
+  animation-delay: -116s;
+  transform-origin: 16vw -14vh;
+  box-shadow: -100vmin 0 13.160790957720687vmin currentColor;
+}
+.bg span:nth-child(2) {
+  color: #5cc4de;
+  top: 27%;
+  left: 32%;
+  animation-duration: 320s;
+  animation-delay: -384s;
+  transform-origin: 23vw 10vh;
+  box-shadow: -100vmin 0 12.663383055715604vmin currentColor;
+}
+.bg span:nth-child(3) {
+  color: #5cc4de;
+  top: 54%;
+  left: 10%;
+  animation-duration: 200s;
+  animation-delay: -122s;
+  transform-origin: 4vw 15vh;
+  box-shadow: 100vmin 0 12.881853012209234vmin currentColor;
+}
+.bg span:nth-child(4) {
+  color: #5cc4de;
+  top: 30%;
+  left: 6%;
+  animation-duration: 11s;
+  animation-delay: -267s;
+  transform-origin: 0vw 15vh;
+  box-shadow: -100vmin 0 12.841299400666747vmin currentColor;
+}
+.bg span:nth-child(5) {
+  color: #5cc4de;
+  top: 57%;
+  left: 8%;
+  animation-duration: 389s;
+  animation-delay: -286s;
+  transform-origin: -20vw -9vh;
+  box-shadow: 100vmin 0 13.190106280130395vmin currentColor;
+}
+.bg span:nth-child(6) {
+  color: #5cc4de;
+  top: 90%;
+  left: 43%;
+  animation-duration: 376s;
+  animation-delay: -204s;
+  transform-origin: -12vw 11vh;
+  box-shadow: 100vmin 0 12.58791624065295vmin currentColor;
+}
+.bg span:nth-child(7) {
+  color: #5cc4de;
+  top: 39%;
+  left: 52%;
+  animation-duration: 57s;
+  animation-delay: -118s;
+  transform-origin: -17vw 11vh;
+  box-shadow: -100vmin 0 13.268283645597371vmin currentColor;
+}
+.bg span:nth-child(8) {
+  color: #5cc4de;
+  top: 11%;
+  left: 71%;
+  animation-duration: 219s;
+  animation-delay: -175s;
+  transform-origin: 16vw 1vh;
+  box-shadow: -100vmin 0 12.709526118824819vmin currentColor;
+}
+.bg span:nth-child(9) {
+  color: #5cc4de;
+  top: 46%;
+  left: 43%;
+  animation-duration: 329s;
+  animation-delay: -125s;
+  transform-origin: -5vw 8vh;
+  box-shadow: -100vmin 0 12.7599468854926vmin currentColor;
+}
+.bg span:nth-child(10) {
+  color: #5cc4de;
+  top: 73%;
+  left: 18%;
+  animation-duration: 83s;
+  animation-delay: -248s;
+  transform-origin: 21vw -1vh;
+  box-shadow: 100vmin 0 12.572712011624171vmin currentColor;
+}
+
+// Card Login Style
+
+.card-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.login_form {
+  width: 300px;
+  padding: 20px;
+  backdrop-filter: blur(10px); /* Card Background Blur */
+  background: rgba(255, 255, 255, 0.5); /* Soft Transparent */
+  border-radius: 30px;
+  &-div {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .submit-button {
+    width: 100%;
+    // background-color: #d07fff;
+    color: #f1f1f1;
+    background-image: linear-gradient(
+      to right,
+      #56ccf2,
+      #25bbf5,
+      #00a9f6,
+      #0096f4,
+      #2f80ed
+    );
+    padding: 10px 0px;
+    border: none;
+    border-radius: 30px;
+  }
+  .submit-button:hover {
+    width: 100%;
+    background-image: linear-gradient(
+      to right,
+      #6dd5ed,
+      #5cc4de,
+      #4ab3ce,
+      #37a3bf,
+      #2193b0
+    );
+    color: #f1f1f1;
+    border: none;
+    transition: 0.5s all;
+  }
+  .submit-button:active {
+    // background-color: #fd3131;
+    // color: #00a9f6;
+  }
+}

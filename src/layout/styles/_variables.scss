@@ -1,0 +1,18 @@
+// Fonts
+@font-face {
+  src: url('/public/assets/font/noto_sans/NotoSans-VariableFont.ttf')
+    format('truetype');
+  font-family: 'NoteSans-Regular';
+  font-weight: normal;
+  font-style: normal;
+}
+$Note-Sans-Regular: 'NoteSans-Regular';
+
+@font-face {
+  src: url('/public/assets/font/open_sans/OpenSans-VariableFont.ttf')
+    format('truetype');
+  font-family: 'OpenSans-Regular';
+  font-weight: normal;
+  font-style: normal;
+}
+$OpenSans-Regular: 'OpenSans-Regular';

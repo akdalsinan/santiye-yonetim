@@ -1,0 +1,89 @@
+{
+  "menu": [
+    {
+      "name": "Anasayfa",
+      "path": "/",
+      "component": "DashboardPage",
+      "icon": "homeOutlined",
+      "order": 0,
+      "children": []
+    },
+    {
+      "name": "Şantiye Projeleri",
+      "path": "/santiye-proje",
+      "icon": "ForwardOutlined",
+      "order": 0,
+      "children": []
+    },
+    {
+      "name": "Şantiye Evrakları",
+      "path": "/santiye-evrak",
+      "icon": "ForwardOutlined",
+      "order": 0,
+      "children": []
+    },
+    {
+      "name": "Şantiye Defteri",
+      "path": "/santiye-defter",
+      "icon": "ForwardOutlined",
+      "order": 0,
+      "children": []
+    },
+    {
+      "name": "Envanter Listesi",
+      "icon": "ForwardOutlined",
+      "order": 0,
+      "path": "/envanter-listesi",
+      "children": []
+    },
+    {
+      "name": "Ön Muhasebe Cari",
+      "path": "/harcama-formu",
+      "icon": "ForwardOutlined",
+      "order": 0,
+      "children": []
+    },
+    {
+      "name": "Personel Puantaj Tablosu",
+      "path": "/personel-puantaj",
+      "icon": "ForwardOutlined",
+      "order": 0,
+      "children": []
+    },
+    {
+      "name": "Alınan Taşeron Teklifleri",
+      "path": "/teklifler",
+      "icon": "ForwardOutlined",
+      "order": 0,
+      "children": []
+    },
+    {
+      "name": "Araç km Tablosu",
+      "path": "/arac-km",
+      "icon": "ForwardOutlined",
+      "order": 0,
+      "children": []
+    },
+    {
+      "name": "İş Makinesi Çalışma Tablosu",
+      "path": "/is-makinesi",
+      "icon": "ForwardOutlined",
+      "order": 0,
+      "children": []
+    },
+    {
+      "name": "Yemek",
+      "path": "/yemek",
+      "icon": "ForwardOutlined",
+      "order": 0,
+      "children": []
+    },
+    {
+      "name": "İş Programı",
+      "path": "/is-programi",
+      "icon": "ForwardOutlined",
+      "order": 0,
+      "children": []
+    }
+  ]
+}

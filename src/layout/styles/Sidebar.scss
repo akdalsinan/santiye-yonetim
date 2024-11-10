@@ -1,0 +1,19 @@
+// renk ve boyut değerleri
+// $sidebar-bg-color: #161a23;
+// $sidebar-second-bg-color: #2d2f39;
+// $sidebar-border: 1px solid #5c5f65;
+// $sidebar-border-radius: 16px;
+
+// $sidebar-app-color: #bcbec0;
+// $sidebar-app-bg-color: #5c5f65;
+
+// $sidebar-text-color: #f5f5f5; // icon aynı renk
+// $sidebar-text-second-color: #bcbec0; // icon aynı renk
+// $sidebar-subtext-color: #8a8c91;
+
+.sider {
+  &-logo-text {
+    text-align: center;
+    font-size: 24px;
+  }
+}

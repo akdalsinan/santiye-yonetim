@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00a651;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: #b3b4b4;
+        font-family: Room-Bold, Room;
+        font-size: 103.33px;
+        font-weight: 700;
+        letter-spacing: .097em;
+      }
+
+      .cls-2 {
+        fill: #ed1c24;
+      }
+    </style>
+  </defs>
+  <g id="HDI-1">
+    <polygon class="cls-2" points="138.07 161.019 66.275 161.019 66.275 217.527 138.07 217.527 138.07 161.019 138.07 161.019"/>
+    <path class="cls-1" d="M14.189,106.429h56.298v165.69H14.189V106.429h0ZM129.554,106.429h56.298v165.69h-56.298V106.429h0ZM429.507,106.429h56.298v165.69h-56.298V106.429h0ZM233.022,107.917h76.369c45.075,0,81.958,36.995,81.958,81.945h0c0,44.977-36.883,81.958-81.958,81.958h-76.369V107.917h0ZM284.716,147.576h6.507c25.638,0,46.612,19.532,46.612,43.405h0c0,23.881-20.975,43.412-46.612,43.412h-6.507v-86.817h0Z"/>
+    <text class="cls-3" transform="translate(10.061 367.634)"><tspan x="0" y="0">SİGORTA</tspan></text>
+  </g>
+</svg>

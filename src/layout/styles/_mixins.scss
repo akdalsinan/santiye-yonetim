@@ -1,0 +1,45 @@
+// general style settings
+@mixin general-styles {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+@mixin font-smooth {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@mixin flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+// layout style
+@mixin layout-styles {
+  min-height: 100%;
+  @include flex-container;
+}
+
+// scrollbar style
+@mixin scrollbar-styles {
+  width: 6px;
+  height: 6px;
+  cursor: pointer;
+  &-thumb {
+    background-color: #777777;
+    border-radius: 6px;
+  }
+  &-thumb:hover {
+    background-color: #4b4b4b;
+    border-radius: 8px;
+  }
+  &-track {
+    background: #f1f1f1;
+    border-radius: 8px;
+  }
+  &-button {
+    display: none;
+  }
+}
