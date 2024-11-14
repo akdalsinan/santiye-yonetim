@@ -40,7 +40,7 @@ export default function RouterWrapper() {
   const [menuItems, setMenuItems] = useState([]);
   // Menu.json Fetch
   useEffect(() => {
-    fetch('/assets/json/menu.json')
+    fetch('https://santiye-yonetim.vercel.app/assets/json/menu.json')
       .then((response) => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
