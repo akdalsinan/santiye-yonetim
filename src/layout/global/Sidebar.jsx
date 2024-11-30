@@ -16,7 +16,7 @@ export default function Sidebar({ menuItems }) {
         {collapsedData ? (
           <h3 className="sider-logo-text">T</h3>
         ) : (
-          <h3 className="sider-logo-text">Teklif.io</h3>
+          <h3 className="sider-logo-text">Şantiye Yönetim</h3>
         )}
 
         <Menus menuItems={menuItems} />

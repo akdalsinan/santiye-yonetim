@@ -4,7 +4,7 @@ const { Text } = Typography;
 function Footer() {
   return (
     <Layout.Footer className="footer">
-      <Text type="secondary">Teklif.io - 2024</Text>
+      <Text type="secondary">Şantiye Yönetim</Text>
     </Layout.Footer>
   );
 }
