@@ -1,16 +1,35 @@
 import { Button, Form, Input, message, Upload } from 'antd';
 import React from 'react';
+import { addmaterial, updatematerial } from '../../services/envanterListesi';
 
-function MalzemeAdEkleModal({ selectedRow }) {
+function MalzemeAdEkleModal({ selectedRow, modal }) {
   const initialValues = selectedRow
     ? {
-        note: selectedRow.note,
-        files: selectedRow.files,
+        materialName: selectedRow.materialName,
       }
-    : { note: '', files: '' };
+    : { materialName: '' };
 
   const onFinishHandle = (value) => {
-    console.log('value', value);
+    const id = selectedRow ? selectedRow.id : null;
+    const createData = { ...value };
+
+    if (selectedRow) {
+      // updatematerial(updateData, id).then((response) => {
+      //   const { isSuccess, resultMessage, resultSet } = response;
+      //   if (isSuccess && resultSet !== undefined) {
+      //     openNotification('success', resultMessage[0]);
+      //     modal.destroy();
+      //   }
+      // });
+    } else {
+      // addmaterial(createData).then((response) => {
+      //   const { isSuccess, resultMessage, resultSet } = response;
+      //   if (isSuccess && resultSet !== undefined) {
+      //     openNotification('success', resultMessage[0]);
+      //     modal.destroy();
+      //   }
+      // });
+    }
   };
 
   return (

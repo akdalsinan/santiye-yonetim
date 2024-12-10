@@ -15,6 +15,7 @@ import OnMuhasebeCari from '../../Pages/OnMuhasebeCari';
 import PersonelPuantajTablosuPage from '../../Pages/PersonelPuantajTablosu';
 import TaseronTeklifleriPage from '../../Pages/TaseronTeklifleri';
 import AracKmTablosuPage from '../../Pages/AracKmTablosu';
+import AraclarPage from '../../Pages/AracKmTablosu/araclar';
 import IsMakinesiCalismaPage from '../../Pages/IsMakinesiCalisma';
 import YemekPage from '../../Pages/Yemek';
 import IsProgramiPage from '../../Pages/IsProgrami';
@@ -29,10 +30,13 @@ const components = {
   '/harcama-formu': OnMuhasebeCari,
   '/personel-puantaj': PersonelPuantajTablosuPage,
   '/teklifler': TaseronTeklifleriPage,
-  '/arac-km': AracKmTablosuPage,
+
   '/is-makinesi': IsMakinesiCalismaPage,
   '/yemek': YemekPage,
   '/is-programi': IsProgramiPage,
+  '/araclar': AraclarPage,
+  '/takip': AracKmTablosuPage,
+
   // '/hizli-islem': HizliPage,
 };
 
@@ -40,7 +44,7 @@ export default function RouterWrapper() {
   const [menuItems, setMenuItems] = useState([]);
   // Menu.json Fetch
   useEffect(() => {
-    fetch('https://santiye-yonetim.vercel.app/assets/json/menu.json')
+    fetch('/assets/json/menu.json')
       .then((response) => {
         if (!response.ok) {
           throw new Error('Network response was not ok');

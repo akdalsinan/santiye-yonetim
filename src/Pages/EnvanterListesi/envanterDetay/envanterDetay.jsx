@@ -1,15 +1,15 @@
 import { Button, Modal, Space, Table } from 'antd';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import EnvanterEkleModal from './envanterEkleModal';
+import { generatedModal } from '../../../components/functions';
 
 function EnvanterDetay({ selectedMalzeme }) {
-  console.log('selectedMalzeme', selectedMalzeme);
+  useEffect(() => {
+    console.log('selectedMalzeme', selectedMalzeme);
 
-  const [modalOpen, setModalOpen] = useState(false);
-  const [selectedRow, setSelectedRow] = useState(false);
-
-  //selectedMalzeme İD DEĞERİNE GÖRE ENVANTER DATAY GELECEK
-  // useEffect(() => {}, [selectedMalzeme]);
+    //selectedMalzeme İD DEĞERİNE GÖRE ENVANTER DETAY GELECEK
+    // useEffect(() => {}, [selectedMalzeme]);
+  }, [selectedMalzeme]);
 
   const columns = [
     {
@@ -57,7 +57,7 @@ function EnvanterDetay({ selectedMalzeme }) {
       key: 'action',
       render: (_, record) => (
         <Space>
-          <Button type="link" onClick={() => openModal(record)}>
+          <Button type="link" onClick={() => showModal(record)}>
             Güncelle
           </Button>
           <Button type="link" danger onClick={() => handleDelete(record)}>
@@ -108,18 +108,22 @@ function EnvanterDetay({ selectedMalzeme }) {
     console.log('record', record);
   };
 
-  const openModal = (record) => {
-    setModalOpen(true);
-    setSelectedRow(record);
+  const showModal = (selectedRow) => {
+    generatedModal({
+      title:
+        selectedRow !== undefined ? 'Önemli Olay Güncelle' : 'Önemli Olay Ekle',
+      content: <EnvanterEkleModal selectedRow={selectedRow} />,
+      width: '50%',
+    });
   };
 
   return (
     <>
-      <Button onClick={() => openModal()}> Not Ekle </Button>{' '}
-      <Modal open={modalOpen} onCancel={() => onCancelModal()}>
+      <Button onClick={() => showModal()}> Envanter Ekle </Button>{' '}
+      {/* <Modal open={modalOpen} onCancel={() => onCancelModal()}>
         {' '}
         <EnvanterEkleModal selectedRow={selectedRow} />{' '}
-      </Modal>
+      </Modal> */}
       <Table columns={columns} dataSource={data} />
     </>
   );

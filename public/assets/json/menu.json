@@ -59,10 +59,24 @@
     },
     {
       "name": "Araç km Tablosu",
-      "path": "/arac-km",
       "icon": "ForwardOutlined",
       "order": 0,
-      "children": []
+      "children": [
+        {
+          "name": "Araçlar",
+          "path": "/araclar",
+          "icon": "ForwardOutlined",
+          "order": 0,
+          "children": []
+        },
+        {
+          "name": "KM Takip",
+          "path": "/takip",
+          "icon": "ForwardOutlined",
+          "order": 0,
+          "children": []
+        }
+      ]
     },
     {
       "name": "İş Makinesi Çalışma Tablosu",
