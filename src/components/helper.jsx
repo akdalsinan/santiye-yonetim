@@ -33,3 +33,33 @@ export const servicesControls = (response, error, post) => {
     }
   }
 };
+
+//gelen datayı value label olacak şekilde format edildi
+export const mapToOptions = (array, valueKey, labelKey) => {
+  return array.map((item, index) => ({
+    value: item[valueKey],
+    label: item[labelKey],
+    key: index,
+  }));
+};
+
+// fonksiyonu birden fazla kullandığımız için helper yaptım
+export const handleMultiSelectChange = (
+  values,
+  setSelected,
+  options,
+  selected
+) => {
+  if (values.includes('all')) {
+    if (selected.length === options.length) {
+      // Tümünü kaldır
+      setSelected([]);
+    } else {
+      // Tümünü seç
+      setSelected(options.map((option) => option.value));
+    }
+  } else {
+    // Bireysel seçim
+    setSelected(values);
+  }
+};

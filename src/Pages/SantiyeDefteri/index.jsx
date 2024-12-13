@@ -1,11 +1,9 @@
 import { Button, Modal, Popconfirm, Table } from 'antd';
 import React, { useState } from 'react';
 import UploadNoteModal from './uploadNoteModal';
+import { generatedModal } from '../../components/functions';
 
 function Index() {
-  const [modalOpen, setModalOpen] = useState(false);
-  const [selectedRow, setSelectedRow] = useState([]);
-
   const fakeData = [
     { id: 5, note: 'adasd', files: 'asdasd' },
     { id: 6, note: 'note1', files: 'asdasd' },
@@ -32,12 +30,10 @@ function Index() {
       key: 'action',
       render: (_, record) => (
         <>
-          {/* Güncelleme butonu */}
-          <Button type="link" onClick={() => handleUpdate(record)}>
+          <Button type="link" onClick={() => showModal(record)}>
             Güncelle
           </Button>
 
-          {/* Silme butonu */}
           <Popconfirm
             title="Silmek İstediğinize Emin misiniz?"
             onConfirm={() => handleDelete(record.id)}
@@ -53,32 +49,22 @@ function Index() {
     },
   ];
 
-  const handleDelete = (value) => {
-    console.log('value', value);
-  };
-
-  const openModal = () => {
-    setModalOpen(true);
-  };
-
-  const handleUpdate = (selectedRow) => {
-    setModalOpen(true);
-    setSelectedRow(selectedRow);
-  };
-
-  const onCancelModal = () => {
-    setModalOpen(false);
-    setSelectedRow([]);
+  const showModal = (selectedRow) => {
+    generatedModal({
+      title: selectedRow !== undefined ? 'Güncelle' : 'Ekle',
+      content: <UploadNoteModal selectedRow={selectedRow} />,
+      width: '30%',
+    });
   };
 
   return (
     <>
-      <Button onClick={() => openModal()}> Not Ekle </Button>{' '}
+      <Button onClick={() => showModal()}> Not Ekle </Button>{' '}
       <Table columns={columns} dataSource={fakeData} rowKey="id" />
-      <Modal open={modalOpen} onCancel={() => onCancelModal()}>
+      {/* <Modal open={modalOpen} onCancel={() => onCancelModal()}>
         {' '}
         <UploadNoteModal selectedRow={selectedRow} />{' '}
-      </Modal>
+      </Modal> */}
     </>
   );
 }

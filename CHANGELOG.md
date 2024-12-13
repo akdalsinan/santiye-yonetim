@@ -14,4 +14,10 @@
 
 - Servis konfigrasyonu eklendi
 - helper ve functions(generateModal) dosyaları eklendi
-- Araç Km ekranına children menü eklendi
+- Araç Km ekranına children menü
+
+# [0.0.4] - 13.12.2024
+
+- Araç km ve Araçlar sayfaları yapıldı servis bağlatıları eklendi.
+- Şantiye Defteri sayfasındaki modal komponenti generateModal olarak ayarlandı
+-

@@ -4,8 +4,6 @@ import React from 'react';
 import { UploadOutlined } from '@ant-design/icons';
 
 function UploadNoteModal({ selectedRow }) {
-  console.log('selectedRow', selectedRow);
-
   const initialValues = selectedRow
     ? {
         note: selectedRow.note,

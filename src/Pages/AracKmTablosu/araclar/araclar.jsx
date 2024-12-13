@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { getallvehicles } from '../../services/aracKm';
-import { Button, Table } from 'antd';
+import { getallvehicles, vehicleDelete } from '../../../services/aracKm';
+import { Button, Popconfirm, Table } from 'antd';
+import { generatedModal } from '../../../components/functions';
+import AracEkleModal from './aracEkleModal';
 
 function Araclar() {
-  const [selectedRow, setSelectedRow] = useState([]);
-
   const [data, setData] = useState([]);
 
   // const getData = () => {
@@ -40,12 +40,27 @@ function Araclar() {
       title: 'İşlem',
       render: (_, record) => (
         <>
-          <Button type="link" onClick={() => handleDetailClick(record)}>
-            Detay Görüntüle
-          </Button>
           <Button type="link" onClick={() => showModal(record)}>
             Güncelle
           </Button>
+          <Popconfirm
+            title="Silmek İstediğinize Emin misiniz?"
+            onConfirm={
+              () => console.log('recsord.id', record.id)
+              // vehicleDelete(record.id).then((response) => {
+              //   const { isSuccess, resultSet } = response;
+              //   if (isSuccess && resultSet !== undefined) {
+              //     getData();
+              //   }
+              // })
+            }
+            okText="Evet"
+            cancelText="Hayır"
+          >
+            <Button type="link" danger>
+              Sil
+            </Button>
+          </Popconfirm>
         </>
       ),
     },
@@ -70,7 +85,7 @@ function Araclar() {
     generatedModal({
       title:
         selectedRow !== undefined ? 'Önemli Olay Güncelle' : 'Önemli Olay Ekle',
-      content: <MalzemeAdEkleModal selectedRow={selectedRow} />,
+      content: <AracEkleModal selectedRow={selectedRow} />,
       width: '30%',
     });
   };

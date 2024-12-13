@@ -1,0 +1,3 @@
+- Tarih aralığına göre belirli bir aracın km kayıtlarını getir servisi post olacak şuanda get
+- api/carkm/addkm bu servis başlangıç ve bitiş tarihi alabilir. Şuan sadece carDate alıyor
+- km kayıt sayfasında silme servisi yok
