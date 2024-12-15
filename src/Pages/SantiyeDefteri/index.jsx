@@ -2,8 +2,24 @@ import { Button, Modal, Popconfirm, Table } from 'antd';
 import React, { useState } from 'react';
 import UploadNoteModal from './uploadNoteModal';
 import { generatedModal } from '../../components/functions';
+import { getallNotes } from '../../services/santiyeDefteri';
 
 function Index() {
+  const [data, setData] = useState([]);
+
+  // const getData = () => {
+  // getallNotes().then((response) => {
+  //     const { isSuccess, resultMessage, resultSet } = response;
+  //     if (isSuccess && resultSet !== undefined) {
+  //       setData(resultSet);
+  //     }
+  //   });
+  // };
+
+  // useEffect(() => {
+  //   getData();
+  // }, []);
+
   const fakeData = [
     { id: 5, note: 'adasd', files: 'asdasd' },
     { id: 6, note: 'note1', files: 'asdasd' },

@@ -2,6 +2,7 @@ import { Button, Form, Input, message, Upload } from 'antd';
 import React from 'react';
 
 import { UploadOutlined } from '@ant-design/icons';
+import { addNote, updateNote } from '../../services/santiyeDefteri';
 
 function UploadNoteModal({ selectedRow }) {
   const initialValues = selectedRow
@@ -24,7 +25,24 @@ function UploadNoteModal({ selectedRow }) {
     formData.append('note', value.note);
     formData.append('files', value.files.file);
 
-    console.log('value', formData);
+    const id = selectedRow ? selectedRow.id : null;
+    // const createData = { ...value };
+
+    if (selectedRow) {
+      // updateNote(formData, id).then((response) => {
+      //   const { isSuccess, resultMessage, resultSet } = response;
+      //   if (isSuccess && resultSet !== undefined) {
+      //     modal.destroy();
+      //   }
+      // });
+    } else {
+      // addNote(formData).then((response) => {
+      //   const { isSuccess, resultMessage, resultSet } = response;
+      //   if (isSuccess && resultSet !== undefined) {
+      //     modal.destroy();
+      //   }
+      // });
+    }
   };
 
   return (

@@ -20,4 +20,4 @@
 
 - Araç km ve Araçlar sayfaları yapıldı servis bağlatıları eklendi.
 - Şantiye Defteri sayfasındaki modal komponenti generateModal olarak ayarlandı
--
+- Şantiye Defteri sayfasındaki servis bağlantıları yapıldı
